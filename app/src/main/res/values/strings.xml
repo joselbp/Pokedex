@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="btnAcerca"> ACERCA DE</string>
+    <string name="txtSem"> IX SEMESTRE</string>
+    <string name="txtunimar"> Universidad Mariana</string>
+    <string name="btnSalir"> SALIR</string>
+    <string name="txtIng"> Ingenieria de Sistemas</string>
+    <string name="txtTitulo"> PANINI COLOMBIA</string>
+
+</resources>

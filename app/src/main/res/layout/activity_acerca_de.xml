@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bolaospc.pokedex.AcercaDe">
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_x="36dp"
+        android:layout_y="413dp"
+        android:onClick="salir"
+        android:text="@string/btnSalir"
+        tools:text="Salir" />
+
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_x="116dp"
+        android:layout_y="27dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="José Luis Bolaños Padilla"
+        tools:layout_editor_absoluteX="393dp"
+        tools:layout_editor_absoluteY="467dp" />
+
+    <TextView
+        android:id="@+id/txtSem"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="149dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtSem"
+        tools:layout_editor_absoluteX="464dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <TextView
+        android:id="@+id/txtunimar"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="191dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtunimar"
+        tools:layout_editor_absoluteX="419dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <TextView
+        android:id="@+id/txtIng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="124dp"
+        android:layout_y="86dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtIng"
+        tools:layout_editor_absoluteX="396dp"
+        tools:layout_editor_absoluteY="524dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="93dp"
+        android:layout_height="126dp"
+        android:layout_x="141dp"
+        android:layout_y="268dp"
+        app:srcCompat="@drawable/unimar"
+        tools:layout_editor_absoluteX="425dp"
+        tools:layout_editor_absoluteY="653dp" />
+
+</AbsoluteLayout>
+
